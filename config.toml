@@ -1,5 +1,5 @@
 # Site settings
-# baseurl = "https://hotelparaiso.github.io/"
+baseurl = "https://hotelparaiso.github.io/"
 languageCode = "es-PE"
 title = "Hotel Paraiso"
 theme = "paradise"
