@@ -1,5 +1,5 @@
 # Site settings
-# baseurl = "https://hotelparaiso.pe/"
+baseurl = "https://hotelparaiso.pe/"
 languageCode = "es-PE"
 title = "Hotel Paraiso"
 theme = "paradise"
