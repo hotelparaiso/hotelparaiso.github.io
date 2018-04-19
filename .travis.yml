@@ -13,6 +13,7 @@ after_success: |
     git checkout --orphan master
     git rm -rf .
     mv public/* .
+    echo 'hotelparaiso.pe' > ./CNAME
     rm -rf public hugo_*
     git add -f --ignore-errors --all
     git -c user.name='clebaresu' -c user.email='clebaresu@gmail.com' commit -m init
