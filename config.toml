@@ -46,9 +46,9 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Hotel Paraiso - beta version"
+    # brand = "Hotel Paraiso - beta version"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo.svg"
     services = "Servicios"
     portfolio = "Opciones"
     about = "Eventos"
@@ -76,35 +76,35 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Un hotel acogedor cerca de Lima"
-    subtitle = "Bienvenido, a Huacho ... el Paraíso"
+    title = "Un hotel acogedor en Huacho"
+    # subtitle = "Bienvenido, a Huacho ... el Paraíso"
     buttonText = "Ver más"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Nuestros Servicios"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Atributos"
+    subtitle = "Para una experiencia más allá de lo esperado, donde la atención al detalle, ambiente confortable y servicio esmerado, definen cada estadía."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "Pago On Line"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-bed"
+      title = "Habitación Altamente Confortable"
+      description = "Todas nuestras habitaciones son amplias y limpias, con un mobiliario y comodidad de primer nivel, cuentan con agua caliente y tv por cable"
+      url = "#portfolio"
+
+    [[params.services.row.list]]
+      icon = "fa-map-marker"
+      title = "Excelente Ubicación"
+      description = "Nos ubicamos en la plazuela San Martin en Huacho, zona céntrica a 300 metros de la plaza de armas y cerca del malecón de Huacho y su excelente vista al mar."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Recojo y Traslado"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Seguridad"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-suitcase"
+      title = "Mucho más por un precio cómodo"
+      description = "Cafetería, Servicio de WiFi, Lugar Seguro, servicios de información turística, planes corporativos para empresas, y mucho más"
       url = "#"
 
   # Portfolio section
@@ -118,18 +118,18 @@ googleAnalytics = ""
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      enlace = "Link"
+      fecha = "Fecha"
+      category = "Clase"
+      buttonText = "Retornar al portal"
 
 
-    # About section
+    # Seccion Agenda
   [params.about]
     enable = true
     title = "Próximos eventos"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "Huacho es un lugar para divertirse, pasear y pasarla bien en familia."
+    endpoint = "Se Parte<br>de nuestra<br>agenda!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -159,14 +159,14 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
-  # Team section
+  # Sección de Opiniones de Redes Sociales
   [params.team]
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Opinan de nosotros"
+    subtitle = "Algunos de nuestros clientes no ofrecieron sus opiniones y recuerdos."
+    description = "Si quieres unirte a este entusiasta grupo escribenos al hash tag #paraisohuacho. Además te presentamos abajo, algunas de las empresas que confiaron en nosotros."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.

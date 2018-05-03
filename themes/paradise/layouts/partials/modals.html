@@ -14,12 +14,16 @@
             <div class="modal-body">
               <h2>{{ .title  | markdownify }}</h2>
               <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
-              {{ $url := printf "img/portfolio/%s" .img }}
-              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+              {{ $url1 := printf "img/portfolio/%s" .img1 }}
+              {{ $url2 := printf "img/portfolio/%s" .img2 }}
+              {{ $url3 := printf "img/portfolio/%s" .img3 }}
+              <img class="img-responsive img-centered" src="{{ $url1 | absURL }}" alt="">
+              <img class="img-responsive img-centered" src="{{ $url2 | absURL }}" alt="">
+              <img class="img-responsive img-centered" src="{{ $url3 | absURL }}" alt="">
               <p>{{ .description | markdownify }}</p>
               <ul class="list-inline">
-                <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
-                <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
+                <li>{{ with $.Site.Params.portfolio.modal.fecha }}{{ . }}{{ end }}: {{ .fecha }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.enlace }}{{ . | markdownify }}{{ end }}: <a href="{{ .enlaceLink }}">{{ .enlace }}</a></li>
                 <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
               </ul>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
