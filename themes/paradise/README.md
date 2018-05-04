@@ -94,7 +94,7 @@ Una vez que el DNS se ha propagado, necesitará cambiar el nombre de host base e
 
 
 
-### Usando este tema ejemplo
+### Usando este tema "Paradise"
 
 ### Cambia el background
 
@@ -119,7 +119,7 @@ Todos los iconos son parte de la fuente del icono de Fontawesome. Mira el sitio 
 ### Crea tu cartera de productos
 
 
-Además config.toml, hay data otra subcarpeta llamada `data/projects` que aloja los archivos que aparecerán como proyectos en la sección de cartera. Tal archivo de proyecto podría verse como este escrito en YAML:
+Además config.toml, hay data otra subcarpeta llamada `data/projects` que aloja los archivos que aparecerán como productos en la sección de cartera. Tal archivo de proyecto podría verse como este escrito en YAML:
 
 
 ```yaml

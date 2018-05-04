@@ -136,27 +136,27 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "20-23 Abril 2018"
-      title = "Plenum Huacho"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "27 al 29 de Junio"
+      title = "Fiesta de San Pedro"
+      description = "Fiesta religiosa y sociocultural en honor a San Pedro el apostol pescador. Se celebra del 27 al 29 de Junio en el Puerto de Huacho."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "27-28 Julio"
+      date = "28-29 Julio"
       title = "Fiestas Patrias"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "Una buena opción en Fiestas Patrias es visitar Huacho para ver y disfrutar de sus playas, lugares arqueológicos como Bandurria, Vichama y Caral, el Balcon de Huáura es un lugar para celebrar al Perú y su independencia, degustar platos típicos y full diversion de los feriados largos"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "Todo Julio 2018"
-      title = "Miss certsam"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "24 de Agosto"
+      title = "Fiesta de San Bartolomé"
+      description = "Fiesta religiosa y sociocultural de San Bartolomé Patron de Huacho, es ocasión para llegar a ser parte de las festividades y celebraciones en este día"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "Octubre 2018"
-      title = "Dia de los brujos"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "10 Noviembre"
+      title = "Fiesta Aniversario"
+      description = "Fiesta Aniversario con pasacalles, ferias gastronomicas, fuegos artificiales y demás actividades socioculturales celebrando la elevación de ciudad a Fidelisima Villa"
 
 
   # Sección de Opiniones de Redes Sociales
