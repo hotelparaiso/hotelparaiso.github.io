@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     # brand = "Hotel Paraiso - beta version"
     # Optional logo as brand stored in img/
-    logo = "logo.svg"
+    logo = "logo.gif"
     services = "Servicios"
     portfolio = "Opciones"
     about = "Eventos"
